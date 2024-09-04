@@ -38,7 +38,7 @@ const scenarios = [
     },
     {
         id: 'alien',
-        image: 'hotdog.jpg',
+        image: 'alien.jpg',
         text: "You stumble upon a hot dog stand that seems... off. The vendor has an odd greenish tint, and the menu items are written in an indecipherable script.",
         choices: [
             { text: "Ask for directions to Radio City Music Hall", value: "directions" },
