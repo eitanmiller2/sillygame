@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYC Dating Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="start-screen">
+            <h1>NYC Dating Adventure</h1>
+            <img id="player-avatar" src="avatar.png" alt="Player Avatar">
+            <input type="text" id="player-name" placeholder="Your Name">
+            <input type="email" id="player-email" placeholder="Your Email">
+            <button id="start-game">Start Adventure</button>
+        </div>
+        <div id="game-screen" style="display:none;">
+            <div id="scenario-image"></div>
+            <div id="scenario-content">
+                <div id="scenario-text"></div>
+                <div id="choices"></div>
+            </div>
+            <div id="eitan-message"></div>
+        </div>
+        <div id="end-screen" style="display:none;">
+            <h2>Adventure Complete!</h2>
+            <p id="end-message"></p>
+            <button id="restart-game">Play Again</button>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
